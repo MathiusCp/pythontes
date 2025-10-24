@@ -2,7 +2,7 @@ import pytest
 from app import sumar, restar, dividir
 
 def test_sumar_correcto():
-    assert sumar(2, 3) == 5   # ✅ correcta
+    assert sumar(2, 2) == 5   # ✅ correcta
 
 def test_restar_error():
     assert restar(5, 2) == 10  # ❌ error intencional
